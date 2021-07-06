@@ -45,6 +45,10 @@ body{
     height: 90%;
 }
 
+.for-padding{
+    padding: 90px 0;
+}
+
 .h1-line-height{
     line-height: 2rem;
 }
