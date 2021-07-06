@@ -1,0 +1,172 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+
+/* ################## common classes ##############*/
+.orange-color{
+    color: rgb(255, 123, 0);
+}
+
+.button{
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, rgb(255, 136, 0), red);
+}
+
+.section-items{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.sections{
+    display: flex;
+    margin-bottom: 50px;
+    padding: 0 50px;
+}
+.gray-color{
+    color: rgb(73, 69, 69);
+}
+
+ /* ################## first section  ###################*/
+ .first-section h1{
+     font-size: 40px;
+     color: rgb(73, 69, 69);
+ }
+.first-section{
+    margin-top: 50px;
+}
+
+.first-section-items img{
+    width: 80%;
+    height: 90%;
+}
+
+.h1-line-height{
+    line-height: 2rem;
+}
+.p-line-height{
+    line-height: 0.5rem;
+}
+
+
+/* ######################## second-section     ################ */
+.second-section{
+    background: url(images/shapes/bg.png);
+    margin-bottom: 50px;
+}
+
+.about{
+    padding-top: 50px;
+    width: 70%;
+    color: rgb(73, 69, 69);
+}
+
+.button-div{
+    padding-top: 50px;
+}
+
+
+/* ######################### Third Section ############# */
+.third-section{
+    text-align: center;
+    padding: 0 30%;
+
+}
+
+/* ##################### food section ##################### */
+
+
+.food-items{
+    width: 33%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.food-items img{
+    width: 100%;
+    border-radius: 25px;
+    height: 310px;
+}
+
+.food-items h3{
+    font-weight: 600;
+}
+
+/* ################### count ################### */
+.count{
+    display: flex;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px 50px;
+    margin: 0 50px 80px;
+}
+.count-items{
+    padding-top: 20px;
+    width: 33%;
+    text-align: center;
+    line-height: 15px;
+}
+
+.count-items span{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/* ##################### make ################ */
+.make{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(212, 19, 67), rgb(108, 8, 133));
+    padding: 40px 0 60px;
+}
+.extra-cls{
+    padding: 0 0 10px;
+}
+.extra-cls h2{
+    display: inline-block;
+    padding: 2px 80px;
+    background: white;
+}
+.make-item{ 
+    display: flex;
+    padding: 0 350px;
+}
+.make-items{
+    width: 25%;
+}
+
+.make-items a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    background: rgb(161, 113, 113);
+    padding: 5px 20px;
+    
+}
+
+
+/* ##################### footer section ################### */
+.footer-section{
+    text-align: center;
+    background-color: black;
+    padding: 20px 0;
+    line-height: 15px;
+}
+.footer-section h3{
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-section p{
+    color: #fff;
+}
+.footer-section a{
+    color: #fff;
+    padding: 0 10px;
+}
