@@ -123,8 +123,8 @@ body{
 }
 
 
-/* ##################### make ################ */
-.make{
+/* ##################### coming soon ################ */
+.coming-soon{
     text-align: center;
     background-image: linear-gradient(to right, rgb(212, 19, 67), rgb(108, 8, 133));
     padding: 40px 0 60px;
@@ -137,20 +137,21 @@ body{
     padding: 2px 80px;
     background: white;
 }
-.make-item{ 
+.coming-soon-item{ 
     display: flex;
     padding: 0 350px;
 }
-.make-items{
+.coming-soon-items{
     width: 25%;
 }
 
-.make-items a{
+.coming-soon-items a{
     font-size: 16px;
     color: #fff;
     text-decoration: none;
     display: inline-block;
-    background: rgb(161, 113, 113);
+    background-image: linear-gradient(to right, rgb(81, 180, 131), rgb(60, 209, 97));
+    /* background: rgb(161, 113, 113); */
     padding: 5px 20px;
     
 }
